@@ -1,0 +1,33 @@
+<header>
+	<div class="main">
+		<a href="{{ .Lang | relURL }}">{{ .Site.Title }}</a>
+	</div>
+	<nav>
+		{{ range .Site.Menus.main }}
+		<a href="{{ .URL }}">{{ .Name }}</a>
+		{{ end }}
+		{{ if eq .Site.Params.mode "toggle" -}}
+        | <span id="dark-mode-toggle" onclick="toggleTheme()"></span>
+		<script src="{{ absURL "js/themetoggle.js" }}"></script>
+		{{ end }}
+
+		<span> | </span>
+
+		{{ $siteLanguages := site.Languages}}
+		{{ $pageLang := .Page.Lang}}
+		{{- range .Page.AllTranslations }}
+		    {{ $translation := . }}
+		    {{- range $siteLanguages }}
+		        {{- if eq $translation.Lang .Lang }}
+		            {{ if eq $pageLang .Lang}}
+		                <span class="flagselect" href="{{ $translation.Permalink | relURL }}">{{ .Lang | upper }}</span>
+		            {{ else }}
+		                <a class="flagnoselect" href="{{ $translation.Permalink | relURL }}">{{ .Lang | upper }}</a>
+		            {{ end }}
+		        {{- end }}
+		    {{- end }}
+		{{- end }}
+
+
+	</nav>
+</header>

@@ -1,0 +1,11 @@
+main:
+
+  - name: API
+    url: https://api.openaipricing.com/docs
+    target: _blank
+    weight: 10
+
+  - name: контакти
+    pageRef: /contacts
+    weight: 30
+

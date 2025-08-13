@@ -1,0 +1,52 @@
+baseURL: https://openaipricing.com/
+
+languageCode: en
+defaultContentLanguage: en
+defaultContentLanguageInSubdir: true
+
+params:
+  contact:
+    email: hello@openaipricing.com
+  subtitle: OpenAI Pricing
+
+title: OpenAI Pricing
+
+theme: "archie"
+pagination:
+  pagerSize: 20
+
+frontmatter:
+  date:
+    - ":filename"
+    - ":default"
+
+permalinks:
+  posts: ":year/:month/:title/"
+
+params:
+
+  mainSections:
+    - posts
+
+  announcementSections:
+    - tournaments
+    - alerts
+
+  social:
+    - name: github
+      icon: github
+      url: https://github.com/openai-pricing
+
+
+languages:
+  en:
+    disabled: false
+    contentDir: content/en
+    languageCode: en
+    languageDirection: ltr
+    languageName: English
+    title: Pricing
+    weight: 1
+    params:
+      subtitle: API interface to various pricings
+

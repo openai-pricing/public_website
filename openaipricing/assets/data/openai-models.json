@@ -1,0 +1,328 @@
+{
+  "gpt-5": {
+    "Batch": {
+      "input": 0.625,
+      "cached_input": 0.0625,
+      "output": 5
+    },
+    "Flex": {
+      "input": 0.625,
+      "cached_input": 0.0625,
+      "output": 5
+    },
+    "Standard": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10
+    },
+    "Priority": {
+      "input": 2.5,
+      "cached_input": 0.25,
+      "output": 20
+    }
+  },
+  "gpt-5-mini": {
+    "Batch": {
+      "input": 0.125,
+      "cached_input": 0.0125,
+      "output": 1
+    },
+    "Flex": {
+      "input": 0.125,
+      "cached_input": 0.0125,
+      "output": 1
+    },
+    "Standard": {
+      "input": 0.25,
+      "cached_input": 0.025,
+      "output": 2
+    },
+    "Priority": {
+      "input": 0.45,
+      "cached_input": 0.05,
+      "output": 3.6
+    }
+  },
+  "gpt-5-nano": {
+    "Batch": {
+      "input": 0.025,
+      "cached_input": 0.0025,
+      "output": 0.2
+    },
+    "Flex": {
+      "input": 0.025,
+      "cached_input": 0.0025,
+      "output": 0.2
+    },
+    "Standard": {
+      "input": 0.05,
+      "cached_input": 0.005,
+      "output": 0.4
+    }
+  },
+  "gpt-4.1": {
+    "Batch": {
+      "input": 1,
+      "cached_input": null,
+      "output": 4
+    },
+    "Standard": {
+      "input": 2,
+      "cached_input": 0.5,
+      "output": 8
+    }
+  },
+  "gpt-4.1-mini": {
+    "Batch": {
+      "input": 0.2,
+      "cached_input": null,
+      "output": 0.8
+    },
+    "Standard": {
+      "input": 0.4,
+      "cached_input": 0.1,
+      "output": 1.6
+    }
+  },
+  "gpt-4.1-nano": {
+    "Batch": {
+      "input": 0.05,
+      "cached_input": null,
+      "output": 0.2
+    },
+    "Standard": {
+      "input": 0.1,
+      "cached_input": 0.025,
+      "output": 0.4
+    }
+  },
+  "gpt-4o": {
+    "Batch": {
+      "input": 1.25,
+      "cached_input": null,
+      "output": 5
+    },
+    "Standard": {
+      "input": 2.5,
+      "cached_input": 1.25,
+      "output": 10
+    }
+  },
+  "gpt-4o-2024-05-13": {
+    "Batch": {
+      "input": 2.5,
+      "cached_input": null,
+      "output": 7.5
+    },
+    "Standard": {
+      "input": 5,
+      "cached_input": null,
+      "output": 15
+    }
+  },
+  "gpt-4o-mini": {
+    "Batch": {
+      "input": 0.075,
+      "cached_input": null,
+      "output": 0.3
+    },
+    "Standard": {
+      "input": 0.15,
+      "cached_input": 0.075,
+      "output": 0.6
+    }
+  },
+  "o1": {
+    "Batch": {
+      "input": 7.5,
+      "cached_input": null,
+      "output": 30
+    },
+    "Standard": {
+      "input": 15,
+      "cached_input": 7.5,
+      "output": 60
+    }
+  },
+  "o1-pro": {
+    "Batch": {
+      "input": 75,
+      "cached_input": null,
+      "output": 300
+    },
+    "Standard": {
+      "input": 150,
+      "cached_input": null,
+      "output": 600
+    }
+  },
+  "o3-pro": {
+    "Batch": {
+      "input": 10,
+      "cached_input": null,
+      "output": 40
+    },
+    "Standard": {
+      "input": 20,
+      "cached_input": null,
+      "output": 80
+    }
+  },
+  "o3": {
+    "Batch": {
+      "input": 1,
+      "cached_input": null,
+      "output": 4
+    },
+    "Flex": {
+      "input": 1,
+      "cached_input": 0.25,
+      "output": 4
+    },
+    "Standard": {
+      "input": 2,
+      "cached_input": 0.5,
+      "output": 8
+    }
+  },
+  "o3-deep-research": {
+    "Batch": {
+      "input": 5,
+      "cached_input": null,
+      "output": 20
+    },
+    "Standard": {
+      "input": 10,
+      "cached_input": 2.5,
+      "output": 40
+    }
+  },
+  "o4-mini": {
+    "Batch": {
+      "input": 0.55,
+      "cached_input": null,
+      "output": 2.2
+    },
+    "Flex": {
+      "input": 0.55,
+      "cached_input": 0.138,
+      "output": 2.2
+    },
+    "Standard": {
+      "input": 1.1,
+      "cached_input": 0.275,
+      "output": 4.4
+    }
+  },
+  "o4-mini-deep-research": {
+    "Batch": {
+      "input": 1,
+      "cached_input": null,
+      "output": 4
+    },
+    "Standard": {
+      "input": 2,
+      "cached_input": 0.5,
+      "output": 8
+    }
+  },
+  "o3-mini": {
+    "Batch": {
+      "input": 0.55,
+      "cached_input": null,
+      "output": 2.2
+    },
+    "Standard": {
+      "input": 1.1,
+      "cached_input": 0.55,
+      "output": 4.4
+    }
+  },
+  "o1-mini": {
+    "Batch": {
+      "input": 0.55,
+      "cached_input": null,
+      "output": 2.2
+    },
+    "Standard": {
+      "input": 1.1,
+      "cached_input": 0.55,
+      "output": 4.4
+    }
+  },
+  "computer-use-preview": {
+    "Batch": {
+      "input": 1.5,
+      "cached_input": null,
+      "output": 6
+    },
+    "Standard": {
+      "input": 3,
+      "cached_input": null,
+      "output": 12
+    }
+  },
+  "gpt-5-chat-latest": {
+    "Standard": {
+      "input": 1.25,
+      "cached_input": 0.125,
+      "output": 10
+    }
+  },
+  "gpt-4o-audio-preview": {
+    "Standard": {
+      "input": 2.5,
+      "cached_input": null,
+      "output": 10
+    }
+  },
+  "gpt-4o-realtime-preview": {
+    "Standard": {
+      "input": 5,
+      "cached_input": 2.5,
+      "output": 20
+    }
+  },
+  "gpt-4o-mini-audio-preview": {
+    "Standard": {
+      "input": 0.15,
+      "cached_input": null,
+      "output": 0.6
+    }
+  },
+  "gpt-4o-mini-realtime-preview": {
+    "Standard": {
+      "input": 0.6,
+      "cached_input": 0.3,
+      "output": 2.4
+    }
+  },
+  "codex-mini-latest": {
+    "Standard": {
+      "input": 1.5,
+      "cached_input": 0.375,
+      "output": 6
+    }
+  },
+  "gpt-4o-mini-search-preview": {
+    "Standard": {
+      "input": 0.15,
+      "cached_input": null,
+      "output": 0.6
+    }
+  },
+  "gpt-4o-search-preview": {
+    "Standard": {
+      "input": 2.5,
+      "cached_input": null,
+      "output": 10
+    }
+  },
+  "gpt-image-1": {
+    "Standard": {
+      "input": 5,
+      "cached_input": 1.25,
+      "output": null
+    }
+  }
+}
